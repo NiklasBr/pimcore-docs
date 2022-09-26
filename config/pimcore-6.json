@@ -29,7 +29,7 @@
         "repo": "pimcore/pimcore",
         "twitter": false,
         "links": {
-            "Pimcore Academy": "https://pimcore.com/en/resources/academy",
+            "Pimcore Academy": "https://pimcore.com/en/developers/academy",
             "Download": "https://pimcore.com/download",
             "GitHub": "https://github.com/pimcore/pimcore",
             "Forums": "https://github.com/pimcore/pimcore/discussions",
@@ -38,7 +38,7 @@
         "google_analytics": "UA-12436865-1",
         "banner": {
             "academy": {
-                "link": "https://pimcore.com/en/resources/academy",
+                "link": "https://pimcore.com/en/developers/academy",
                 "image": "https://pimcore.com/docs/pimcore/current/themes/pimcore/img/02_970x250_Billboard.jpg"
             }
         },
@@ -102,6 +102,27 @@
                 "title": "Pimcore Direct Edit",
                 "description": "Pimcore Direct Edit allows you editing Pimcore assets locally in your preferred editor and upload them right away back to Pimcore.",
                 "link": "/docs/direct-edit/current",
+                "css_classes": "enterprise",
+                "ribbon_text": "Enterprise"
+            },
+            "workflow-designer": {
+                "title": "Workflow Designer",
+                "description": "The Workflow Designer extension provides a visual designer for Pimcore workflow engine.",
+                "link": "/docs/workflow-designer/current",
+                "css_classes": "enterprise",
+                "ribbon_text": "Enterprise"
+            },
+            "headless-documents": {
+                "title": "Headless Documents",
+                "description": "This extension adds a new document type \"Headless Document\" for managing website data in a headless manner.",
+                "link": "/docs/headless-documents/current",
+                "css_classes": "enterprise",
+                "ribbon_text": "Enterprise"
+            },
+            "openid-connect": {
+                "title": "OpenID Connect",
+                "description": "Pimcore OpenID Connect allows to configure SSO for Pimcore backend login with an OpenID Connect provider.",
+                "link": "/docs/openid-connect/current",
                 "css_classes": "enterprise",
                 "ribbon_text": "Enterprise"
             },

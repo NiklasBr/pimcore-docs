@@ -1,6 +1,6 @@
 {
-    "title": "Pimcore Direct Edit",
-    "sub_title": "Pimcore Direct Edit",
+    "title": "OpenID Connect",
+    "sub_title": "OpenID Connect for Pimcore Login",
     "format": "html",
     "ignore": {
         "files": [
@@ -22,7 +22,7 @@
         "float": false,
         "search": true,
         "inherit_index": true,
-        "repo": "pimcore/direct-edit",
+        "repo": "pimcore/openid-connect",
         "twitter": false,
         "links": {
             "Pimcore Core Documentation": "https://pimcore.com/docs",
@@ -42,8 +42,8 @@
         },
         "version_info": {
             "include": true,
-            "source_url": "https://github.com/pimcore/direct-edit/commit/{commit_hash}",
-            "source_name": "pimcore/direct-edit@{short_commit_hash}"
+            "source_url": "https://github.com/pimcore/openid-connect/commit/{commit_hash}",
+            "source_name": "pimcore/openid-connect@{short_commit_hash}"
         }
     }
 }
